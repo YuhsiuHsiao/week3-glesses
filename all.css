@@ -54,7 +54,6 @@ img {
     vertical-align: middle;
     max-width: 100%;
     height: auto;
-	vertical-align: middle;
 }
 body {
     font-family: 'Noto Sans TC', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', "Microsoft JhengHei", "Helvetica Meue", sans-serif;
@@ -78,17 +77,36 @@ body {
 	font-size: 14px;
 	line-height: 21px;
 }
-.font-s{
-	font-size: 20px;
-	line-height: 30px;
-}
-.font-m {
+.font-s {
 	font-size: 16px;
 	line-height: 24px;
+}
+.font-m{
+	font-size: 20px;
+	line-height: 30px;
 }
 .font-l {
 	font-size: 36px;
 	line-height: 54px;
+}
+.font-xl {
+	font-size: 64px;
+	line-height: 96px;
+}
+.text-primary {
+	color: #650300;
+}
+.text-secondary {
+	color: #AA0601;
+}
+.bg-light {
+	background-color: #FBF2F2;
+}
+.bg-primary {
+	background-color: #AA0601;
+}
+.bg-brickRed {
+	background-color: #650300;
 }
 
 .mx-auto{
@@ -182,7 +200,19 @@ body {
 .flex-alic{
 	align-items: center;
 }
+.align-item-end{
+	align-items: flex-end;
+}
 
+.all-screen{
+	height: 100vh;
+}
+.btn-shopp {
+	padding: 6px 12px;
+	background-color: #AA0601;
+	color: #fff;
+	text-decoration: none;
+}
 .container {
     max-width: 1296px;
 	margin: 0 auto;
@@ -237,9 +267,15 @@ body {
 		padding: 0;
 		width: 100%;
 	}
+	.menu a {
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
 	.menu-item{
 		width: 50%;
 		border: 1px solid #fff;
+		font-size: 16px;
+		line-height: 24px;
 	}
 }
 /** header end **/
@@ -344,9 +380,28 @@ footer .contact img {
 	.copyright, .copyright ul{
 		flex-direction: column;
 	}
+	.copyright li {
+		font-size: 16px;
+		line-height: 24px;
+	}
 }
 
 .copyright {
 	border-top: 1px solid #fff;
 }
 /** footer end **/
+
+/** bnner **/
+.banner {
+	background: url(./images/home-header.png) center no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+@media (max-width:767px) {
+	.banner {
+		background: url(./images/home-header-sm.png) center no-repeat;
+		background-size: cover;
+		height: 100vh;
+	}
+}
+/** bnner end **/

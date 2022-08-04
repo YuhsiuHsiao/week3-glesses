@@ -89,6 +89,10 @@ body {
 	font-size: 36px;
 	line-height: 54px;
 }
+.font-4872{
+	font-size: 48px;
+	line-height: 72px;
+}
 .font-xl {
 	font-size: 64px;
 	line-height: 96px;
@@ -112,6 +116,12 @@ body {
 .mx-auto{
 	margin-right: auto;
 	margin-left: auto;
+}
+.text-center {
+	text-align: center;
+}
+.text-justify {
+	text-align: justify;
 }
 .w-100{
 	width: 100%;
@@ -141,6 +151,14 @@ body {
 .pt-8 {
 	padding-top:64px;
 }
+.pt-9 {
+	padding-top:72px;
+}
+.pt-10 {
+	padding-top:80px;
+}
+
+
 .pb-1 {
 	padding-bottom: 8px;
 }
@@ -153,6 +171,18 @@ body {
 .pb-4 {
 	padding-bottom: 32px;
 }
+.pb-10 {
+	padding-bottom: 80px;
+}
+@media (max-width:767px) {
+	.pt-10 {
+		padding-top: 40px;
+	}
+	.pb-10 {
+	padding-bottom: 40px;
+	}
+}
+
 
 .mt-1 {
 	margin-top: 8px;
@@ -275,7 +305,7 @@ body {
 		line-height: 24px;
 	}
 }
-/** header end **/
+/** header END **/
 
 /** footer **/
 footer {
@@ -386,7 +416,7 @@ footer .contact img {
 .copyright {
 	border-top: 1px solid #fff;
 }
-/** footer end **/
+/** footer END **/
 
 /** bnner **/
 .banner {
@@ -404,7 +434,7 @@ footer .contact img {
 		height: 400px;
 		padding: 0 14px;
 	}
-	.main {
+	.banner .main {
 		height: 400px;
 	}
 	.banner p {
@@ -416,4 +446,38 @@ footer .contact img {
 		line-height: 36px;
 	}
 }
-/** bnner end **/
+/** bnner END **/
+
+/** about-us **/
+
+.feature li {
+	max-width: 25%;
+}
+.feature-icon img{
+	width: 100px;
+}
+.feature-tt{
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 700;
+}
+.feature ul {
+	margin: 0 -12px;
+}
+.feature li {
+	padding: 0 12px;
+}
+@media (max-width:996px) {
+	.feature li {
+		max-width: 50%;
+	}
+}
+@media (max-width:767px) {
+	.feature {
+		padding: 0 14px;
+	}
+	.feature li {
+		max-width: 100%;
+	}
+}
+/** about-us END **/

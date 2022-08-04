@@ -204,9 +204,6 @@ body {
 	align-items: flex-end;
 }
 
-.all-screen{
-	height: 100vh;
-}
 .btn-shopp {
 	padding: 6px 12px;
 	background-color: #AA0601;
@@ -397,15 +394,26 @@ footer .contact img {
 	background-size: cover;
 	height: 100vh;
 }
+.main {
+	height: 100vh;
+}
 @media (max-width:767px) {
 	.banner {
 		background: url(./images/home-header-sm.png) center no-repeat;
 		background-size: cover;
-		height: 100vh;
+		height: 400px;
+		padding: 0 14px;
+	}
+	.main {
+		height: 400px;
 	}
 	.banner p {
 		font-size: 16px;
 		line-height: 24px;
+	}
+	.banner .title {
+		font-size: 24px;
+		line-height: 36px;
 	}
 }
 /** bnner end **/

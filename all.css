@@ -89,10 +89,6 @@ body {
 	font-size: 36px;
 	line-height: 54px;
 }
-.font-4872{
-	font-size: 48px;
-	line-height: 72px;
-}
 .font-xl {
 	font-size: 64px;
 	line-height: 96px;
@@ -449,7 +445,10 @@ footer .contact img {
 /** bnner END **/
 
 /** about-us **/
-
+.slogan{
+	font-size: 48px;
+	line-height: 72px;
+}
 .feature li {
 	max-width: 25%;
 }
@@ -479,5 +478,10 @@ footer .contact img {
 	.feature li {
 		max-width: 100%;
 	}
+	.slogan{
+		font-size: 24px;
+		line-height: 36px;
+	}
+
 }
 /** about-us END **/

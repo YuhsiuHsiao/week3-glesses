@@ -1,0 +1,48 @@
+/** design-prod **/
+.design-prod {
+    background: url(../images/index-bg.png) center no-repeat;
+    background-size: cover;
+}
+
+.design-prod .container {
+    max-width: 1296px;
+}
+
+.md-non {
+    display: none;
+}
+
+.design-prod .prod-name {
+    font-family: 'roboto';
+}
+
+
+@media (max-width:992px) {
+    .design-prod {
+        background: url(../images/index-bg-md.png) center no-repeat;
+        background-size: cover;
+
+        ul {
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .sm-non {
+        display: none;
+    }
+
+    .sm-open {
+        display: block;
+    }
+
+    .design-prod {
+        background: url(../images/index-bg-sm.png) center no-repeat;
+        background-size: cover;
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
+/** design-prod END **/

@@ -1,0 +1,44 @@
+/** bnner **/
+.banner {
+    background: url(../images/home-header.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main {
+    height: 100vh;
+}
+
+@media (max-width:992px) {
+    .banner {
+        background: url(../images/home-header-sm.png) center no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+}
+
+@media (max-width:767px) {
+    .banner {
+        background: url(../images/home-header-sm.png) center no-repeat;
+        background-size: cover;
+        height: 400px;
+        padding: 0 14px;
+    }
+
+    .banner .main {
+        height: 400px;
+    }
+
+    .banner p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .banner .title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+/** bnner END **/

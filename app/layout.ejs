@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%- title %></title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="header bg-block-red">
+    <div class="container d-flex flex-jcsb wrap">
+      <a class="item logo" href="index.html">
+        <img src="./assets/images/logo-white.png" alt="Logo">
+      </a>
+      <ul class="item menu text-white d-flex font-m wrap">
+        <li class="menu-item"><a href="#">系列鏡框</a></li>
+        <li class="menu-item"><a href="#">門市據點</a></li>
+        <li class="menu-item"><a href="#">部落格</a></li>
+        <li class="menu-item"><a href="#">常見問題</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <%- contents %>
+
+    <footer class="bg-block-red text-white fw-4">
+      <div class="container">
+        <div class="content d-flex flex-column">
+          <div class="d-flex flex-jcsb flex-alic">
+            <ul class="d-flex webmap font-s mb-4">
+              <li><a href="#">首頁</a></li>
+              <li><a href="#">系列鏡框</a></li>
+              <li><a href="#">門市據點</a></li>
+              <li><a href="#">部落格</a></li>
+              <li><a href="#">常見問題</a></li>
+            </ul>
+            <div class="community d-flex">
+              <img src="./assets/images/ic-social-fb.png" alt="facebook">
+              <img src="./assets/images/ic_social_ig.png" alt="instagram">
+              <img src="./assets/images/ic_social_line.png" alt="line">
+            </div>
+          </div>
+          <ul class="contact">
+            <li><a class="d-flex flex-alic" href="tel:080000000"><img src="./assets/images/call_white_24dp.svg"
+                  alt="call-icon">&nbsp;<span>0800-000-00</span></a></li>
+            <li><a class="d-flex flex-alic" href="mailto:glasses@business.co"><img src="./assets/images/email_white_24dp.svg"
+                  alt="email-icon">&nbsp;<span>glasses@business.com</span></a></li>
+          </ul>
+        </div>
+
+        <div class="copyright d-flex flex-jcsb flex-alifs">
+          <p class="font-s">Copyright © 2020 Glasses.All rights reserved.</p>
+          <ul class="d-flex">
+            <li class="mb-1 font-xs"><a href="#">隱私權政策</a></li>
+            <li class="mb-1 font-xs"><a href="#">服務條款</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>

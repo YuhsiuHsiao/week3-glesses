@@ -1,0 +1,49 @@
+/** about-us **/
+.slogan {
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.feature {
+    ul {
+        margin: 0 -12px;
+    }
+
+    li {
+        max-width: 25%;
+        padding: 0 12px;
+    }
+}
+
+.feature-icon img {
+    width: 100px;
+}
+
+.feature-tt {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+@media (max-width:996px) {
+    .feature li {
+        max-width: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .feature {
+        padding: 0 14px;
+
+        li {
+            max-width: 100%;
+        }
+    }
+
+    .slogan {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+/** about-us END **/
